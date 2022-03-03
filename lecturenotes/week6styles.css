@@ -1,0 +1,13 @@
+body {
+    background-color:lightslategrey;
+}
+
+p {color:beige;}
+
+.boldred {
+    color:brown;
+    font-weight:bold;
+
+}
+
+/* no html allowed here */

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 Embedded</title>
+    <style>
+        h1 {color:steelblue;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 200%;
+            /* use percentage or ems as units */
+        }
+        h1, h2 {color:steelblue;} /* grouped selector selects more than 1 thing */
+        body {background-color:aliceblue;
+        font-size: 1.1em;
+        /* 1.1 em means 10% larger than default browser size */
+        }
+        p {font-weight: bold;}
+        p a {color:olivedrab;} /* select all a tags inside p tags */
+        .amazonlink {color:sandybrown;} /* that period means we are looking to match a class value */
+
+    </style>
+</head>
+<body>
+    <h1>Embedded Stylesheets Test</h1>
+    <h2>Grouped Selectors</h2>
+    <a href="https://amazon.com" class="amazonlink">Amazon</a>
+    <a href="https://amazon.com" class="amazonlink">Amazon</a>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita fugiat cumque eum vitae? Quod cupiditate <a href="https://www.google.com">Google</a> atque sit ipsa, dicta enim mollitia error optio ducimus vel ratione a laboriosam molestias dolores.</p>
+</body>
+</html>
