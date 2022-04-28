@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions</title>
+    <script>
+        function Right () {
+            document.getElementById("rightanswer").innerHTML = "Good job. False is correct.";
+            document.getElementById("background").style.backgroundColor = "green";
+
+        }
+        function Wrong () {
+            document.getElementById("wronganswer").innerText = "True is not correct.";
+        }
+    </script>
+</head>
+<body id=background>
+    <p>The semester just started.</p>
+    <p id="wronganswer" onclick="Wrong();">True</p>
+    <p id="rightanswer" onclick="Right();">False</p>
+</body>
+</html>
