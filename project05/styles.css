@@ -1,0 +1,41 @@
+body {font-family: 'Anton';
+    background-color: #c6cfcf;
+    
+    }
+    p {color: #000000;}
+    nav {background-color: #dae2e3;
+    font-size: 1.2em;
+    padding: 20px;
+    margin-bottom: 30px;
+    }
+ nav a {color: #193b16}
+nav a:hover {color: #b1bab3}
+nav a {color: #193b16;}
+.navfloat {float: right;
+margin-left: 20px;
+margin-right: 10px;
+}
+h1 {background-color: #dae2e3;
+    color: #193b16;
+    font-size: 2em;
+    padding: 20px;
+    }
+h2 {
+    color: #193b16;
+}
+footer span {
+    font-size: 1.1em;
+    padding: 20px;
+}
+a:link {
+    color: #193b16;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: #193b16;
+    text-decoration: none;
+  }
+  @media only screen and (max-width: 600px) {
+    nav a {flex-wrap: wrap;}
+}
